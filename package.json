@@ -8,7 +8,7 @@
     "onchange": "^6.1.0"
   },
   "scripts": {
-    "test": "mocha index.test.js",
+    "test": "mocha calculateDistancePoints.test.js && mocha calculateStylePoints.test.js && mocha calculateTotalPoints.test.js  ",
       "test:watch": "onchange \"./*.js\" -- npm test"
   }
 }
